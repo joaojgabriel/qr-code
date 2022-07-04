@@ -92,7 +92,7 @@ main {
 /* Card */
 
 .card {
-  height: 49.8rem;
+  min-height: 49.8rem;
   width: 32rem;
   border-radius: 1.5rem;
   background-color: white;
@@ -103,8 +103,7 @@ main {
 
 /* QR Code */
 img {
-  height: 28.8rem;
-  width: 28.8rem;
+  flex: 0 1 28.8rem;
   border-radius: 1.5rem;
 }
 
