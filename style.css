@@ -33,7 +33,6 @@ body {
 
 /* Make images easier to work with */
 img {
-  max-width: 100%;
   display: block;
 }
 
@@ -96,22 +95,22 @@ main {
   width: 32rem;
   border-radius: 1.5rem;
   background-color: white;
-  box-shadow: .1rem .1rem 4rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0.1rem 0.1rem 4rem rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 1.6rem;
 }
-
 /* QR Code */
 img {
   flex: 0 1 28.8rem;
+  margin: 5% 5% 0 5%;
+  max-width: 90%;
   border-radius: 1.5rem;
 }
 
 /* Text margins */
 h1 {
-  margin: 3.2rem 1.6rem 2rem;
+  margin: 10% 5% 6%;
 }
 
 p {
-  margin: 0 1.6rem;
+  margin: 0 5%;
 }
